@@ -3,11 +3,15 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.2.5'
 
-gem 'rails-api'
+# gem 'rails-api'
 
 gem 'spring', :group => :development
 
+gem 'mongoid', '~> 5' #, github: 'mongoid/mongoid'
 
+gem 'bson_ext'
+
+gem 'grape'
 
 
 # To use ActiveModel has_secure_password
